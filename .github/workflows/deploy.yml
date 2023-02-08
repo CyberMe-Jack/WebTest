@@ -1,6 +1,7 @@
 name: website deployment
 on: [push]
-deploy:
+jobs:
+ deploy:
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@master
